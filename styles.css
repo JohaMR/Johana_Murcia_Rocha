@@ -19,4 +19,6 @@ h1 {
     color: #00698f;
 }
 
-
+p {
+    text-align: justify; /* Justifica el texto de los párrafos */
+}

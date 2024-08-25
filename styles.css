@@ -36,12 +36,12 @@ header {
 }
 
 .sidebar-img {
-    width: 50px; /* Ancho de la imagen circular */
-    height: 50px; /* Alto de la imagen circular */
+    width: 100px; /* Ancho de la imagen circular */
+    height: 100px; /* Alto de la imagen circular */
     border-radius: 50%; /* Hace que la imagen sea circular */
     object-fit: cover; /* Ajusta la imagen para que se ajuste al marco circular */
     display: block;
-    margin: 0 auto 20px; /* Centra la imagen y agrega espacio debajo */
+    margin: 2cm auto 20px; /* Centra la imagen y agrega espacio debajo */
 }
 
 .sidebar ul {

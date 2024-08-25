@@ -27,7 +27,7 @@ header {
 .sidebar {
     position: fixed; /* Fija la barra lateral en la pantalla */
     width: 250px; /* Ancho de la barra lateral */
-    background-color: rgba(0, 191, 255, 0.8); 
+    background-color: rgba(0, 191, 255, 0.9); 
     color: white;
     top: 0; /* Empieza debajo de la imagen de portada */
     right: 0;
@@ -92,8 +92,8 @@ section {
 }
 
 .logo img {
-    width: 300px; /* Ancho de la imagen circular */
-    height: 300px; /* Alto de la imagen circular */
+    width: 50px; /* Ancho de la imagen circular */
+    height: 50px; /* Alto de la imagen circular */
     height: auto;
 }
 

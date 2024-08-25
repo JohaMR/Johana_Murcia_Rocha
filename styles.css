@@ -4,7 +4,7 @@ body {
 }
 
 .header-container {
-    width: 40cm; /* Ancho del contenedor de 30 cm */
+    width: 40cm; /* Ancho del contenedor de 45 cm */
     height: 2cm; /* Altura del contenedor de 10 cm */
     overflow: hidden;
 }

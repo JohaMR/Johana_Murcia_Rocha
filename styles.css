@@ -77,3 +77,42 @@ section {
     font-size: 40px; /* Ajusta el tamaño del ícono */
     color: black; 
 }
+
+
+
+.divulgacion-section {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Espacia las columnas */
+    margin: 20px 0; /* Espaciado superior e inferior de la sección */
+}
+
+.divulgacion-column {
+    flex: 1; /* Ajusta el tamaño de las columnas */
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 100%; /* Asegura que el logo no exceda el tamaño de la columna */
+    height: auto;
+}
+
+.info {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .divulgacion-section {
+        flex-direction: column;
+        align-items: flex-start; /* Alinea las columnas en dispositivos más pequeños */
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .info {
+        text-align: left;
+        margin-top: 15px;
+    }
+}

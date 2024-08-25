@@ -29,7 +29,7 @@ header {
     width: 250px; /* Ancho de la barra lateral */
     background-color: #00bfff; /* Color azul celeste */
     color: white;
-    top: 9.1cm; /* Empieza debajo de la imagen de portada */
+    top: 0; /* Empieza debajo de la imagen de portada */
     right: 0;
     height: 100vh; /* Altura igual a la ventana del navegador */
     overflow-y: auto; /* Añade una barra de desplazamiento vertical si el contenido es largo */

@@ -27,7 +27,7 @@ header {
 .sidebar {
     position: fixed; /* Fija la barra lateral en la pantalla */
     width: 250px; /* Ancho de la barra lateral */
-    background-color: rgba(0, 191, 255, 0.7); 
+    background-color: rgba(0, 191, 255, 0.8); 
     color: white;
     top: 0; /* Empieza debajo de la imagen de portada */
     right: 0;

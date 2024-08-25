@@ -72,3 +72,8 @@ p {
 section {
     margin-bottom: 20px; /* Espacio entre secciones */
 }
+
+.orcid-icon {
+    font-size: 40px; /* Ajusta el tamaño del ícono */
+    color: black; 
+}

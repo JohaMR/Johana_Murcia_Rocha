@@ -93,8 +93,12 @@ section {
 }
 
 .logo-img {
-    max-width: 100%; /* Asegura que el logo no exceda el tamaño de la columna */
-    height: auto;
+    width: 100px; /* Ancho de la imagen circular */
+    height: 100px; /* Alto de la imagen circular */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen para que se ajuste al marco circular */
+    display: block;
+    margin: 0cm auto 20px; /* Centra la imagen y agrega espacio debajo */
 }
 
 .info {

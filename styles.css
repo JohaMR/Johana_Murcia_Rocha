@@ -24,25 +24,40 @@ header {
     width: calc(100% - 250px); /* Ajusta el ancho del contenido principal */
 }
 
-/* Barra de navegación para dispositivos móviles */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+}
+
+.menu-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.3s;
+
+
+/* Estilos para la barra de navegación */
 .navbar {
     display: none; /* Oculta la barra por defecto */
     background-color: #333;
     padding: 10px;
-    position: fixed; /* Fija la barra en la parte superior */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+    z-index: 1000;
+    transition: transform 0.3s ease;
 }
 
-.navbar a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
+/* Estilos para los enlaces de la barra de navegación */
+.nav-item {
     display: block;
-    text-align: center;
-    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
 .sidebar {
     position: fixed; /* Fija la barra lateral en la pantalla */
@@ -137,18 +152,10 @@ section {
     }
 }
 
+/* Mostrar el menú hamburguesa en dispositivos móviles */
 @media (max-width: 768px) {
-    .sidebar {
-        display: none; /* Oculta la barra lateral en pantallas pequeñas */
-    }
-
-    .main-content {
-        margin-right: 0; /* Ajusta el margen del contenido principal */
-        width: 100%; /* El contenido principal ocupa todo el ancho */
-    }
-
-    .navbar {
-        display: block; /* Muestra la barra de navegación */
+    .menu-toggle {
+        display: block;
     }
 }
 

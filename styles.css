@@ -3,14 +3,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
+.header-container {
+    width: 100%;
+    max-height: 300px; /* Ajusta esta altura según necesites */
+    overflow: hidden;
 }
 
 .header-img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el contenedor sin distorsionarse */
 }
 
 h1 {

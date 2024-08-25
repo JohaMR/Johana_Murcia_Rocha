@@ -4,14 +4,14 @@ body {
 }
 
 .header-container {
-    width: 100%;
-    max-height: 30px; /* Ajusta esta altura según necesites */
+    width: 30cm; /* Ancho del contenedor de 30 cm */
+    height: 10cm; /* Altura del contenedor de 10 cm */
     overflow: hidden;
 }
 
 .header-img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al contenedor */
     object-fit: cover; /* Esto asegura que la imagen cubra todo el contenedor sin distorsionarse */
 }
 

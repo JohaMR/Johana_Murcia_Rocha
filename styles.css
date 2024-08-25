@@ -19,6 +19,19 @@ h1 {
     color: #00698f;
 }
 
+.sidebar {
+    width: 200px; /* Ancho de la barra lateral */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #333; /* Color de fondo de la barra lateral */
+    color: white;
+    position: fixed; /* Fija la barra lateral en la pantalla */
+    top: 0;
+    left: 0;
+    overflow: auto; /* Añade una barra de desplazamiento si el contenido es más largo */
+}
+
+
+
 p {
     text-align: justify; /* Justifica el texto de los párrafos */
 }

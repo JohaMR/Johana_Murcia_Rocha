@@ -17,6 +17,12 @@ body {
     object-fit: cover;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word; /* Mejora el espaciado entre palabras */
+    hyphens: auto; /* Añade guiones a las palabras que se dividen al final de una línea */
+}
+
 .main-content {
     margin-right: 250px; /* Deja espacio para la barra lateral a la derecha */
     padding: 20px;

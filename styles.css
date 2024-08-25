@@ -31,7 +31,7 @@ header {
     color: white;
     top: 9.1cm; /* Empieza debajo de la imagen de portada */
     right: 0;
-    bottom: 0; /* Se extiende hasta el fondo de la ventana */
+    height: 100vh; /* Altura igual a la ventana del navegador */
     overflow: hidden; /* Añade una barra de desplazamiento si el contenido es más largo */
     overflow-y: auto; /* Añade una barra de desplazamiento vertical si el contenido es largo */
 }

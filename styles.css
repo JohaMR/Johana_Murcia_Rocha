@@ -92,7 +92,8 @@ section {
 }
 
 .logo img {
-    max-width: 100%; /* Asegura que el logo no exceda el tamaño de la columna */
+    width: 300px; /* Ancho de la imagen circular */
+    height: 300px; /* Alto de la imagen circular */
     height: auto;
 }
 

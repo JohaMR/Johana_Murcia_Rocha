@@ -33,7 +33,7 @@ p {
     background-color: #00bfff; /* Color azul celeste */
     color: white;
     position: fixed; /* Fija la barra lateral en la pantalla */
-    top: 10cm; /* Comienza debajo de la imagen de portada */
+    top: 0.5cm; /* Comienza debajo de la imagen de portada */
     right: 0;
     bottom: 0; /* Se extiende hasta el fondo de la ventana */
     overflow: auto; /* Añade una barra de desplazamiento si el contenido es más largo */

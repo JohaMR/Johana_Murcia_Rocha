@@ -33,6 +33,7 @@ header {
     right: 0;
     bottom: 0; /* Se extiende hasta el fondo de la ventana */
     overflow: hidden; /* Añade una barra de desplazamiento si el contenido es más largo */
+    overflow-y: auto; /* Añade una barra de desplazamiento vertical si el contenido es largo */
 }
 
 .sidebar-img {

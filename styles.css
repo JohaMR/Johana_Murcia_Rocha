@@ -25,10 +25,10 @@ header {
 }
 
 .sidebar {
+    position: fixed; /* Fija la barra lateral en la pantalla */
     width: 250px; /* Ancho de la barra lateral */
     background-color: #00bfff; /* Color azul celeste */
     color: white;
-    position: fixed; /* Fija la barra lateral en la pantalla */
     top: 9.1cm; /* Empieza debajo de la imagen de portada */
     right: 0;
     bottom: 0; /* Se extiende hasta el fondo de la ventana */
@@ -41,7 +41,7 @@ header {
     border-radius: 50%; /* Hace que la imagen sea circular */
     object-fit: cover; /* Ajusta la imagen para que se ajuste al marco circular */
     display: block;
-    margin: 2cm auto 20px; /* Centra la imagen y agrega espacio debajo */
+    margin: 1cm auto 20px; /* Centra la imagen y agrega espacio debajo */
 }
 
 .sidebar ul {

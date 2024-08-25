@@ -1,31 +1,27 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column; /* Asegura que el contenido se organice verticalmente */
 }
 
-.header-container {
+header {
     width: 100%;
-    height: 10cm; /* Altura de la imagen de portada */
-    overflow: hidden;
 }
 
 .header-img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
 }
 
-p {
-    text-align: justify;
-    text-justify: inter-word; /* Mejora el espaciado entre palabras */
-    hyphens: auto; /* Añade guiones a las palabras que se dividen al final de una línea */
+.main-container {
+    display: flex;
+    margin-top: 0; /* Asegura que no haya espacio extra arriba */
 }
 
 .main-content {
     margin-right: 250px; /* Deja espacio para la barra lateral a la derecha */
     padding: 20px;
+    width: calc(100% - 250px); /* Ajusta el ancho del contenido principal */
 }
 
 .sidebar {
@@ -33,7 +29,7 @@ p {
     background-color: #00bfff; /* Color azul celeste */
     color: white;
     position: fixed; /* Fija la barra lateral en la pantalla */
-    top: 0.5cm; /* Comienza debajo de la imagen de portada */
+    top: 0.5cm; /* Empieza debajo de la imagen de portada */
     right: 0;
     bottom: 0; /* Se extiende hasta el fondo de la ventana */
     overflow: auto; /* Añade una barra de desplazamiento si el contenido es más largo */
@@ -59,11 +55,11 @@ p {
     background-color: #575757; /* Color de fondo al pasar el ratón */
 }
 
-section {
-    margin-bottom: 20px; /* Espacio entre secciones */
-    text-align: justify; /* Justifica el texto en cada sección */
+p {
+    text-align: justify; /* Justifica el texto de los párrafos */
+    margin-bottom: 20px; /* Espacio entre párrafos */
 }
 
-section h2 {
-    margin-top: 0;
+section {
+    margin-bottom: 20px; /* Espacio entre secciones */
 }

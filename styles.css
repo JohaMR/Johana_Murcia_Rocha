@@ -24,19 +24,7 @@ header {
     width: calc(100% - 250px); /* Ajusta el ancho del contenido principal */
 }
 
-.menu-toggle {
-    display: none;
-    cursor: pointer;
-    padding: 10px;
-    background-color: #333;
-}
 
-.menu-icon {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
-    transition: 0.3s;
 
 
 /* Estilos para la barra de navegación */
@@ -152,13 +140,10 @@ section {
     }
 }
 
-/* Mostrar el menú hamburguesa en dispositivos móviles */
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+    .sidebar {
+        display: none; /* Oculta la barra lateral en pantallas pequeñas */
     }
-}
-
 
 
 

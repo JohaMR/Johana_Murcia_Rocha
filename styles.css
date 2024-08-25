@@ -15,7 +15,6 @@ header {
 
 .main-container {
     display: flex;
-    flex-direction: column;
     margin-top: 0; /* Asegura que no haya espacio extra arriba */
 }
 
@@ -28,7 +27,7 @@ header {
 .sidebar {
     position: fixed; /* Fija la barra lateral en la pantalla */
     width: 250px; /* Ancho de la barra lateral */
-    background-color: #00bfff; /* Color azul celeste */
+    background-color: rgba(0, 191, 255, 0.7); 
     color: white;
     top: 0; /* Empieza debajo de la imagen de portada */
     right: 0;

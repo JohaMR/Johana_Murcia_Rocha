@@ -140,8 +140,8 @@ section {
 }
 
 .divulgacion-column.logo img {
-    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
-    max-width: 400px; /* Puedes cambiar este valor al tamaño que desees */
+    width: 200%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-width: 600px; /* Puedes cambiar este valor al tamaño que desees */
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 

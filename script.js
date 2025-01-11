@@ -23,3 +23,9 @@ toggleSidebarButton.addEventListener('click', () => {
     // Alterna la clase 'active' en la barra lateral
     sidebar.classList.toggle('active');
 });
+
+toggleSidebarButton.addEventListener('click', () => {
+    console.log('Botón clickeado');
+    sidebar.classList.toggle('active');
+});
+

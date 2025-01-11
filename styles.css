@@ -124,22 +124,6 @@ section {
     height: auto; /* Mantiene la proporción original de la imagen */
 }
 
-
-@media (max-width: 768px) {
-    .sidebar {
-        display: block; /* Muestra la barra lateral en pantallas pequeñas */
-    }
-
-    .main-content {
-        margin-right: 0; /* Ajusta el margen del contenido principal */
-        width: 100%; /* El contenido principal ocupa todo el ancho */
-    }
-
-    .navbar {
-        display: block; /* Muestra la barra de navegación */
-    }
-}
-
 /* Para la animación del asteroide */
 
 nav ul {
@@ -198,21 +182,24 @@ h1 {
     display: none; /* Oculto en pantallas grandes */
 }
 
-/* Asegura que el botón aparezca en pantallas pequeñas */
+/* Barra lateral y menú en pantallas pequeñas */
 @media (max-width: 768px) {
-    .toggle-sidebar {
-        display: block; /* Muestra el botón en pantallas pequeñas */
-    }
-
     .sidebar {
         transform: translateX(100%); /* Oculta la barra lateral inicialmente */
         transition: transform 0.3s ease-in-out;
     }
 
     .sidebar.active {
-        transform: translateX(0); /* Muestra la barra lateral */
+        transform: translateX(0); /* Muestra la barra lateral cuando tiene la clase 'active' */
+    }
+
+    .toggle-sidebar {
+        display: block; /* Muestra el botón en pantallas pequeñas */
+    }
+
+    .main-content {
+        margin-right: 0; /* Ajusta el margen del contenido principal */
+        width: 100%; /* El contenido principal ocupa todo el ancho */
     }
 }
-
-
 
